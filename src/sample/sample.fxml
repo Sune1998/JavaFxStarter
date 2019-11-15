@@ -18,7 +18,7 @@
             <PasswordField prefHeight="0.0" prefWidth="411.0" BorderPane.alignment="CENTER" />
          </center>
          <bottom>
-            <Button mnemonicParsing="false" text="Login" BorderPane.alignment="CENTER" />
+            <Button fx:id="Login" mnemonicParsing="false" text="Login" BorderPane.alignment="CENTER" />
          </bottom>
          <top>
             <MenuBar BorderPane.alignment="CENTER">
@@ -38,6 +38,11 @@
                     <MenuItem mnemonicParsing="false" text="About" />
                   </items>
                 </Menu>
+                  <Menu mnemonicParsing="false" text="Unspecified Menu">
+                    <items>
+                      <MenuItem mnemonicParsing="false" text="Action 1" />
+                    </items>
+                  </Menu>
               </menus>
             </MenuBar>
          </top>
